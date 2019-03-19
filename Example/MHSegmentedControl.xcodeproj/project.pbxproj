@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2044505BB3AFC814DD424958 /* MHSegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MHSegmentedControl.podspec; path = ../MHSegmentedControl.podspec; sourceTree = "<group>"; };
+		2044505BB3AFC814DD424958 /* MHSegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MHSegmentedControl.podspec; path = ../MHSegmentedControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		57C9B4D8FB1B9187D5AA11CD /* Pods_MHSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MHSegmentedControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHSegmentedControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		68BFDF911CE24FCAE7FEEB49 /* Pods-MHSegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHSegmentedControl_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MHSegmentedControl_Tests/Pods-MHSegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C060A2F304C8653FD628DF9 /* Pods-MHSegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHSegmentedControl_Example.release.xcconfig"; path = "Target Support Files/Pods-MHSegmentedControl_Example/Pods-MHSegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A37DEE8A0A334D1C74C9807F /* Pods_MHSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHSegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BED196CB82E0487FF651207B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C68A88E99F1924FA0BB47557 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BED196CB82E0487FF651207B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C68A88E99F1924FA0BB47557 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DDAD4F8151B4E2B3B2F9C551 /* Pods-MHSegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHSegmentedControl_Example.debug.xcconfig"; path = "Target Support Files/Pods-MHSegmentedControl_Example/Pods-MHSegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				68BFDF911CE24FCAE7FEEB49 /* Pods-MHSegmentedControl_Tests.debug.xcconfig */,
 				627B052BD5EC221DF9DE3DB4 /* Pods-MHSegmentedControl_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
