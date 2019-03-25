@@ -26,7 +26,7 @@ extension SlidePageController:UICollectionViewDataSource,UICollectionViewDelegat
         return CGSize(width: self.view.frame.width,height: self.view.frame.height-segmentedControl.frame.maxY)
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.children.count;
+        return self.childViewControllers.count;
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -35,7 +35,7 @@ extension SlidePageController:UICollectionViewDataSource,UICollectionViewDelegat
         for  view in cell.contentView.subviews {
             view.removeFromSuperview()
         }
-        let currentView  = self.children[indexPath.row].view
+        let currentView  = self.childViewControllers[indexPath.row].view
         currentView?.frame = cell.bounds;
         cell.contentView.addSubview(currentView ?? UIView())
         

@@ -1,5 +1,5 @@
 # MHSegmentedControl
-<<<<<<< HEAD
+
 
 [![CI Status](https://img.shields.io/travis/menhui222/MHSegmentedControl.svg?style=flat)](https://travis-ci.org/menhui222/MHSegmentedControl)
 [![Version](https://img.shields.io/cocoapods/v/MHSegmentedControl.svg?style=flat)](https://cocoapods.org/pods/MHSegmentedControl)
@@ -28,6 +28,4 @@ menhui222, menhui222@163.com
 ## License
 
 MHSegmentedControl is available under the MIT license. See the LICENSE file for more info.
-=======
-MHSegmentedControl
->>>>>>> 867ca3005699e72410c9f96d47287a26349f844f
+
